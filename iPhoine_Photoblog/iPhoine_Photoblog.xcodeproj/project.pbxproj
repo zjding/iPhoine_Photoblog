@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC0360214EC4D38008CA47D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC0360114EC4D38008CA47D /* UIKit.framework */; };
+		ECC0360414EC4D38008CA47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC0360314EC4D38008CA47D /* Foundation.framework */; };
+		ECC0360614EC4D38008CA47D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC0360514EC4D38008CA47D /* CoreGraphics.framework */; };
+		ECC0360C14EC4D38008CA47D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC0360A14EC4D38008CA47D /* InfoPlist.strings */; };
+		ECC0360E14EC4D38008CA47D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0360D14EC4D38008CA47D /* main.m */; };
+		ECC0361214EC4D38008CA47D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0361114EC4D38008CA47D /* AppDelegate.m */; };
+		ECC0361514EC4D38008CA47D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC0361314EC4D38008CA47D /* MainStoryboard.storyboard */; };
+		ECC0361814EC4D38008CA47D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0361714EC4D38008CA47D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECC035FD14EC4D38008CA47D /* iPhoine_Photoblog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoine_Photoblog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC0360114EC4D38008CA47D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECC0360314EC4D38008CA47D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECC0360514EC4D38008CA47D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECC0360914EC4D38008CA47D /* iPhoine_Photoblog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoine_Photoblog-Info.plist"; sourceTree = "<group>"; };
+		ECC0360B14EC4D38008CA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC0360D14EC4D38008CA47D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC0360F14EC4D38008CA47D /* iPhoine_Photoblog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoine_Photoblog-Prefix.pch"; sourceTree = "<group>"; };
+		ECC0361014EC4D38008CA47D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECC0361114EC4D38008CA47D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECC0361414EC4D38008CA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ECC0361614EC4D38008CA47D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECC0361714EC4D38008CA47D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC035FA14EC4D38008CA47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC0360214EC4D38008CA47D /* UIKit.framework in Frameworks */,
+				ECC0360414EC4D38008CA47D /* Foundation.framework in Frameworks */,
+				ECC0360614EC4D38008CA47D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC035F214EC4D38008CA47D = {
+			isa = PBXGroup;
+			children = (
+				ECC0360714EC4D38008CA47D /* iPhoine_Photoblog */,
+				ECC0360014EC4D38008CA47D /* Frameworks */,
+				ECC035FE14EC4D38008CA47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC035FE14EC4D38008CA47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC035FD14EC4D38008CA47D /* iPhoine_Photoblog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC0360014EC4D38008CA47D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0360114EC4D38008CA47D /* UIKit.framework */,
+				ECC0360314EC4D38008CA47D /* Foundation.framework */,
+				ECC0360514EC4D38008CA47D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC0360714EC4D38008CA47D /* iPhoine_Photoblog */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0361014EC4D38008CA47D /* AppDelegate.h */,
+				ECC0361114EC4D38008CA47D /* AppDelegate.m */,
+				ECC0361314EC4D38008CA47D /* MainStoryboard.storyboard */,
+				ECC0361614EC4D38008CA47D /* ViewController.h */,
+				ECC0361714EC4D38008CA47D /* ViewController.m */,
+				ECC0360814EC4D38008CA47D /* Supporting Files */,
+			);
+			path = iPhoine_Photoblog;
+			sourceTree = "<group>";
+		};
+		ECC0360814EC4D38008CA47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0360914EC4D38008CA47D /* iPhoine_Photoblog-Info.plist */,
+				ECC0360A14EC4D38008CA47D /* InfoPlist.strings */,
+				ECC0360D14EC4D38008CA47D /* main.m */,
+				ECC0360F14EC4D38008CA47D /* iPhoine_Photoblog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC035FC14EC4D38008CA47D /* iPhoine_Photoblog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC0361B14EC4D38008CA47D /* Build configuration list for PBXNativeTarget "iPhoine_Photoblog" */;
+			buildPhases = (
+				ECC035F914EC4D38008CA47D /* Sources */,
+				ECC035FA14EC4D38008CA47D /* Frameworks */,
+				ECC035FB14EC4D38008CA47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoine_Photoblog;
+			productName = iPhoine_Photoblog;
+			productReference = ECC035FD14EC4D38008CA47D /* iPhoine_Photoblog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC035F414EC4D38008CA47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ECC035F714EC4D38008CA47D /* Build configuration list for PBXProject "iPhoine_Photoblog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECC035F214EC4D38008CA47D;
+			productRefGroup = ECC035FE14EC4D38008CA47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC035FC14EC4D38008CA47D /* iPhoine_Photoblog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC035FB14EC4D38008CA47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC0360C14EC4D38008CA47D /* InfoPlist.strings in Resources */,
+				ECC0361514EC4D38008CA47D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC035F914EC4D38008CA47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC0360E14EC4D38008CA47D /* main.m in Sources */,
+				ECC0361214EC4D38008CA47D /* AppDelegate.m in Sources */,
+				ECC0361814EC4D38008CA47D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECC0360A14EC4D38008CA47D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC0360B14EC4D38008CA47D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECC0361314EC4D38008CA47D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC0361414EC4D38008CA47D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC0361914EC4D38008CA47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC0361A14EC4D38008CA47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC0361C14EC4D38008CA47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoine_Photoblog/iPhoine_Photoblog-Prefix.pch";
+				INFOPLIST_FILE = "iPhoine_Photoblog/iPhoine_Photoblog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECC0361D14EC4D38008CA47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoine_Photoblog/iPhoine_Photoblog-Prefix.pch";
+				INFOPLIST_FILE = "iPhoine_Photoblog/iPhoine_Photoblog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC035F714EC4D38008CA47D /* Build configuration list for PBXProject "iPhoine_Photoblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC0361914EC4D38008CA47D /* Debug */,
+				ECC0361A14EC4D38008CA47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC0361B14EC4D38008CA47D /* Build configuration list for PBXNativeTarget "iPhoine_Photoblog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC0361C14EC4D38008CA47D /* Debug */,
+				ECC0361D14EC4D38008CA47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC035F414EC4D38008CA47D /* Project object */;
+}
